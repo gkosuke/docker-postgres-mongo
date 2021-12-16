@@ -1,0 +1,14 @@
+= Docker雛形: PostgreSQL + MongoDB
+
+RDBとドキュメント型DBを含む**開発用**の雛形。
+開発用GUI画面も含みます。
+
+== Usage
+
+. パスワードや構成などを変更
+
+. `docker-compose up -d`
+
+. http://127.0.0.1:8081 と http://127.0.0.2:8081 にアクセスしてDBの設定
+
+. データ削除は、 mongo と postgres ディレクトリを消せばOK。
